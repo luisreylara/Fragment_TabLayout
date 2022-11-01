@@ -17,5 +17,27 @@ public class MainActivity extends AppCompatActivity {
         tabLayout1= findViewById(R.id.tabLayout1);
 
         getSupportFragmentManager().beginTransaction().add(R.id.frame1,new Fragment1()).commit();
+
+        tabLayout1.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                if (tab.getPosition()==0){
+                    getSupportFragmentManager().beginTransaction().replace(R.id.frame1,new Fragment1()).commit();
+                }
+                if (tab.getPosition()==1){
+                    getSupportFragmentManager().beginTransaction().replace(R.id.frame1,new Fragment2()).commit();
+                }
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
     }
 }
