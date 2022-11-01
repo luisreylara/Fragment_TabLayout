@@ -1,7 +1,8 @@
 # Example using Fragments and TabLayout
 
-This example show how to use Fragments and TabLayout
+## This example show how to use Fragments and TabLayout
 
+```
 Date: 1-11-2022
 Android Version Min: 5
 Android Studio Version: Android Studio Dolphin | 2021.3.1
@@ -21,7 +22,7 @@ Non-Bundled Plugins:
     dev.polek.adbwifi (1.2.4)
     com.thoughtworks.gauge (213.5744.125)
 
-
+```
 ##  *[Back to Android index][1]*
 https://github.com/luisreylara/android
 
