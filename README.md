@@ -2,6 +2,8 @@
 
 ## This example show how to use Fragments and TabLayout
 
+![imagen](./images/Fragments_TabLayout.png) 
+
 ```
 Date: 1-11-2022
 Android Version Min: 5
